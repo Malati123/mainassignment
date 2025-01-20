@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+.nav-menu {
+  margin-right: 20px;
+}
+.nav-menu ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu ul li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.nav-menu ul li a {
+  text-decoration: none;
+  color: #363636;
+}
+
+.nav-item ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item ul li {
+  list-style: none;
+  padding: 0px 10px;
+}
+
+.nav-item ul li a {
+  text-decoration: none;
+  color: #363636;
+}
+
+.nav-item .language {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-item .login img {
+  padding-right: 10px;
+}
+
+.nav-item .btn-getstarted {
+  background-color: #0a4020;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+.nav-item .btn-getstarted:hover {
+  background-color: #075728;
+}
+.background {
+  height: 650px;
+  flex-shrink: 0;
+  background-color: #2e574e;
+}
+.text {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+.text1 {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: px;
+}
+
+.hero {
+  background-image: url(./image/assets/hero-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(80vh - 66px);
+  display: flex;
+  justify-content: center;
+}
+
+.hero-container {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero .breadcrumb {
+  color: #fff;
+}
+.hero-title {
+  color: #fff;
+  text-align: center;
+  font-size: 52px;
+  margin-bottom: 40px;
+}
+
+.hero-search {
+  width: 40%;
+  border-radius: 12px;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  background: var(--Base-White, #fff);
+  padding: 5px 16px;
+}
+.hero-search input {
+  width: 100%;
+  border: none;
+  outline: none;
+}
+.background2 {
+  height: 50px;
+  width: 1350px;
+  margin-top: 30px;
+}
+.background2 ul {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+}
+.rowfirstcard {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  overflow: hidden;
+  padding-inline: 10px;
+}
+
+.card1 img {
+  border: 4px solid white;
+  min-width: 200px;
+  max-width: 430px;
+  height: 100%;
+  gap: 20px;
+}
+.button-pagination {
+  border: none;
+  color: rgb(2, 92, 2);
+  font-size: 50px;
+}
+
+.button-pagination:hover {
+  color: rgb(15, 180, 37);
+  display: flex;
+  align-items: center;
+}
+.arrow:hover {
+  color: rgb(15, 180, 37);
+  display: flex;
+  align-items: center;
+}
+.rowsecondcard {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  overflow: hidden;
+  border: 5px solid black;
+}
+.card2 img {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  max-width: 440px;
+  gap: 20px;
+}
+
+.rowthirdcard {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.card3 img {
+  object-fit: contain;
+  width: 100%;
+  height: 100%;
+  max-width: 440px;
+  gap: 20px;
+}
+.pagination {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  color: #0a421a;
+}
+.pagination .pre-arrow,
+.pagination .next-arrow {
+  font-size: 25px;
+}
+.pagination ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 10px;
+}
+.pagination ul li {
+  list-style: none;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.pagination .active {
+  background-color: #0a421a;
+  color: #fff;
+}
+.pagination ul li:hover {
+  background-color: #0a421a;
+  color: #fff;
+}
+.footer {
+  display: flex;
+  flex-direction: wrap;
+  justify-content: space-between;
+  padding: 64px 0px;
+  gap: 64px;
+}
+.footer ul {
+  list-style: none;
+}
+.footer ul li a {
+  text-decoration: none;
+}
+/* .footercolumn1 {
+  width: Fill (176px) px;
+  height: Hug (216px) px;
+  gap: 16px;
+  opacity: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+.footercolumn2 {
+  width: Fill (176px) px;
+  height: Hug (216px) px;
+  gap: 16px;
+  opacity: 0px;
+  list-style: none;
+  text-decoration: none;
+} */
