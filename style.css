@@ -240,6 +240,7 @@
 .footer ul li a {
   text-decoration: none;
 }
+/* responsive */
 @media (max-width: 600px) {
   .body {
     font-size: 14px;
