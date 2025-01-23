@@ -240,23 +240,6 @@
 .footer ul li a {
   text-decoration: none;
 }
-/* .footercolumn1 {
-  width: Fill (176px) px;
-  height: Hug (216px) px;
-  gap: 16px;
-  opacity: 0px;
-  list-style: none;
-  text-decoration: none;
-}
-.footercolumn2 {
-  width: Fill (176px) px;
-  height: Hug (216px) px;
-  gap: 16px;
-  opacity: 0px;
-  list-style: none;
-  text-decoration: none;
-} */
-
 @media (max-width: 600px) {
   .body {
     font-size: 14px;
